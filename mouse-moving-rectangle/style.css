@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#rect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:200px;
+    height:300px;
+    background-color: red;
+}
+/* The translate() function is a CSS transform function that moves an element along the X and Y axes. In this case,
+the -50% value is used for both the X and Y axes,which means the element will be moved 50% of its own width to the left
+ and 50% of its own height upwards. 
+ This is commonly used to center an element both horizontally and vertically within
+ its parent container. By using negative percentages,the element is positioned relative to its own size,
+allowing it to be centered regardless of its dimensions. */
